@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background-color:#c0c0c0;
+    background:linear-gradient(#2676ff, #ff82e4);
+    z-index: -10;
+}

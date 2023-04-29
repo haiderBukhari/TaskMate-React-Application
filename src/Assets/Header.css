@@ -1,0 +1,58 @@
+.head-main{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.header{
+    background-color: #f4f4f4;
+    width: 92vw;
+    padding: 20px;
+    margin: 14px 3vw 20px 3vw;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 5px 5px 8px #ccc, -2px -2px 8px #ccc;
+    border-radius: 10px;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 20px;
+    height: 20px;
+    background-color: #333;
+    border-radius: 50%;
+    margin-left: 3px;
+    cursor: pointer;
+}
+.clicked{
+    width: 30px;
+    height: 30px;
+}
+.green{
+    background-color: rgb(44, 255, 44);
+    box-shadow: 1px 1px 4px #333;
+}
+.grad1{
+    background:linear-gradient(rgb(0, 204, 255), rgb(117, 252, 117)) !important;
+    /* background:linear-gradient(red, yellow); */
+}
+.grad2{
+    background:linear-gradient(rgb(232, 88, 88), rgb(130, 255, 226), rgb(226, 155, 69),rgb(195, 255, 0)) !important;
+}
+.grad3{
+    background:linear-gradient(rgb(240, 147, 98), rgb(255, 103, 227)) !important;
+}
+.grad4{
+    background:linear-gradient(rgb(72, 135, 230), rgb(0, 238, 255)) !important;
+}
+.grad5{
+    background:linear-gradient(rgb(255, 225, 0), rgb(238, 97, 198), rgb(51, 86, 226)) !important;
+}
+.grad6{
+    background:linear-gradient(#2676ff, #ff82e4) !important;
+}
+.header{
+    background-color: #f4f4f4;
+}
